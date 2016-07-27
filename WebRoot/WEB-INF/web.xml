@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app version="3.0"
+    xmlns="http://java.sun.com/xml/ns/javaee"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_3_0.xsd">
+  <servlet>
+    <servlet-name>UploadServlet</servlet-name>
+    <servlet-class>cn.tf.upload.UploadServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>UploadServlet2</servlet-name>
+    <servlet-class>cn.tf.upload.UploadServlet2</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>UploadServlet3</servlet-name>
+    <servlet-class>cn.tf.upload.UploadServlet3</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>ShowAllFilesServlet</servlet-name>
+    <servlet-class>cn.tf.upload.ShowAllFilesServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>DownLoadServlet</servlet-name>
+    <servlet-class>cn.tf.upload.DownLoadServlet</servlet-class>
+  </servlet>
+
+
+
+
+
+  <servlet-mapping>
+    <servlet-name>UploadServlet</servlet-name>
+    <url-pattern>/servlet/UploadServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>UploadServlet2</servlet-name>
+    <url-pattern>/servlet/UploadServlet2</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>UploadServlet3</servlet-name>
+    <url-pattern>/servlet/UploadServlet3</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>ShowAllFilesServlet</servlet-name>
+    <url-pattern>/servlet/ShowAllFilesServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>DownLoadServlet</servlet-name>
+    <url-pattern>/servlet/DownLoadServlet</url-pattern>
+  </servlet-mapping>
+
+
+
+</web-app>
